@@ -1,0 +1,215 @@
+$date
+	Fri May 02 00:53:49 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module voting_tb $end
+$var wire 32 ! o_count3 [31:0] $end
+$var wire 32 " o_count2 [31:0] $end
+$var wire 32 # o_count1 [31:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % i_candidate_1 $end
+$var reg 1 & i_candidate_2 $end
+$var reg 1 ' i_candidate_3 $end
+$var reg 1 ( i_voting_over $end
+$var reg 1 ) rst $end
+$scope module uut $end
+$var wire 1 $ clk $end
+$var wire 1 % i_candidate_1 $end
+$var wire 1 & i_candidate_2 $end
+$var wire 1 ' i_candidate_3 $end
+$var wire 1 ( i_voting_over $end
+$var wire 1 ) rst $end
+$var parameter 2 * finish $end
+$var parameter 2 + hold $end
+$var parameter 2 , idle $end
+$var parameter 2 - vote $end
+$var reg 32 . o_count1 [31:0] $end
+$var reg 32 / o_count2 [31:0] $end
+$var reg 32 0 o_count3 [31:0] $end
+$var reg 32 1 r_cand1_prev [31:0] $end
+$var reg 32 2 r_cand2_prev [31:0] $end
+$var reg 32 3 r_cand3_prev [31:0] $end
+$var reg 32 4 r_counter_1 [31:0] $end
+$var reg 32 5 r_counter_2 [31:0] $end
+$var reg 32 6 r_counter_3 [31:0] $end
+$var reg 4 7 r_hold_count [3:0] $end
+$var reg 2 8 r_next_state [1:0] $end
+$var reg 2 9 r_present_state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 -
+b0 ,
+b10 +
+b11 *
+$end
+#0
+$dumpvars
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+1)
+0(
+1'
+1&
+1%
+0$
+bx #
+bx "
+bx !
+$end
+#5000
+b0 8
+b0 6
+b0 5
+b0 4
+b0 7
+b0 !
+b0 0
+b0 "
+b0 /
+b0 #
+b0 .
+b0 9
+1$
+#10000
+b1 3
+b1 2
+b1 1
+b1 8
+0$
+0)
+#15000
+b1 9
+1$
+#20000
+0$
+0%
+#25000
+b0 1
+b10 8
+b1 4
+1$
+#30000
+0$
+1%
+#35000
+b1 8
+b1 1
+b10 9
+1$
+#40000
+0$
+#45000
+b1 9
+b1 7
+1$
+#50000
+0$
+0&
+#55000
+b10 8
+b1 5
+b0 2
+1$
+#60000
+0$
+1&
+#65000
+b1 2
+b10 9
+b1 8
+1$
+#70000
+0$
+#75000
+b1 9
+b10 7
+1$
+#80000
+0$
+0'
+#85000
+b0 3
+b10 8
+b1 6
+1$
+#90000
+0$
+1'
+#95000
+b1 8
+b1 3
+b10 9
+1$
+#100000
+0$
+#105000
+b1 9
+b11 7
+1$
+#110000
+0$
+#115000
+1$
+#120000
+0$
+#125000
+1$
+#130000
+0$
+#135000
+1$
+#140000
+0$
+1(
+#145000
+b1 !
+b1 0
+b1 "
+b1 /
+b1 #
+b1 .
+b11 8
+1$
+#150000
+0$
+#155000
+1$
+#160000
+0$
+0(
+#165000
+b11 9
+b1 8
+1$
+#170000
+0$
+#175000
+b0 8
+b1 9
+1$
+#180000
+0$
+#185000
+b0 9
+b1 8
+1$
+#190000
+0$
